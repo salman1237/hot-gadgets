@@ -51,7 +51,7 @@ hr {
 .all {
   color: orange;
   font-size: 20px;
-  margin-bottom: 70px;
+  
   font-weight: bold;
 }
 .horiz {
@@ -72,4 +72,8 @@ hr {
 }
 .col-md-7{
   padding-left: 70px;
+}
+.smart{
+  padding: 0;
+  margin: 0;
 }
