@@ -1,6 +1,7 @@
 .container {
   padding-bottom: 100px;
 }
+
 #indicator li {
   background-color: orange;
 }
@@ -49,10 +50,16 @@ hr {
   border-radius: 10px 0;
 }
 .all {
+  text-decoration: none;
   color: orange;
   font-size: 20px;
-  
-  font-weight: bold;
+  transition: 1s;
+}
+.all:hover {
+  text-decoration: none;
+  color: orange;
+  transition: 0.5s;
+  transform: scale(1.2);
 }
 .horiz {
   width: 70px;
@@ -66,14 +73,13 @@ hr {
   height: 40px;
   width: 40px;
   margin: 5%;
-  background-color:orange;
+  background-color: orange;
   border-radius: 100%;
   padding: 10px;
 }
-.col-md-7{
+.col-md-7 {
   padding-left: 70px;
 }
-.smart{
-  padding: 0;
-  margin: 0;
+.add {
+  padding-bottom: 40px;
 }
