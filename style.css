@@ -1,9 +1,6 @@
 .container {
   padding-bottom: 100px;
 }
-li {
-  background-color: orange;
-}
 #indicator li {
   background-color: orange;
 }
@@ -57,10 +54,22 @@ hr {
   margin-bottom: 70px;
   font-weight: bold;
 }
-.horiz{
+.horiz {
   width: 70px;
   border: 4px solid orange;
 }
-hr{
-  
+.control {
+  background-color: orange;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 40px;
+  width: 40px;
+  margin: 5%;
+  background-color:orange;
+  border-radius: 100%;
+  padding: 10px;
+}
+.col-md-7{
+  padding-left: 70px;
 }
